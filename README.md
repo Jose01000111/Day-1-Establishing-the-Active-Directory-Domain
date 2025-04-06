@@ -1,4 +1,6 @@
 https://imgur.com/a/3cQQjZN
+
+https://imgur.com/a/3cQQjZN
 When I first imagined this scenario, I wanted to gain a deeper understanding of what an IT professional might encounter when setting up a new office space for a large organization. I chose the example of the Chicago Bears purchasing the Arlington Racecourse because it involves a dynamic, high-profile organization with varied IT needs, making it a perfect case study for applying Active Directory solutions.
 This scenario isn’t just about configuring systems—it's about imagining what kinds of challenges IT professionals face when moving from one location to another, particularly in a business environment that needs a scalable, secure, and reliable IT infrastructure. Active Directory (AD) provides a solution for many of these challenges, and by walking through this setup, I could understand the core capabilities AD brings to the table, especially in terms of user management, resource access, security, and disaster recovery.
 
