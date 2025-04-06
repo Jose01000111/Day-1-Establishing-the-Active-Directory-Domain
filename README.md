@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/MTmJSGt.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/pqTjnLb.png" alt="osTicket logo"/>
 </p>
 
 When I first imagined this scenario, I wanted to gain a deeper understanding of what an IT professional might encounter when setting up a new office space for a large organization. I chose the example of the Chicago Bears purchasing the Arlington Racecourse because it involves a dynamic, high-profile organization with varied IT needs, making it a perfect case study for applying Active Directory solutions.
