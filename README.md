@@ -52,6 +52,10 @@ By creating organizational units (OUs), I could establish clear divisions betwee
   
   o	Restart upon completion.
 
+<p align="center">
+<img src="https://i.imgur.com/AmpbSWu.png" alt="osTicket logo"/>
+</p>
+
 ### 5. Create Organizational Units (OUs)
    
 • Use Active Directory Users and Computers (ADUC) to define departmental structure:
