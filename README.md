@@ -19,7 +19,9 @@ By creating organizational units (OUs), I could establish clear divisions betwee
 
 •	Region: (US) Central US
 
-https://imgur.com/D7noL6f
+<p align="center">
+<img src="https://i.imgur.com/D7noL6f.png" alt="osTicket logo"/>
+</p>
 
 •	Assign a static IP address.
 
