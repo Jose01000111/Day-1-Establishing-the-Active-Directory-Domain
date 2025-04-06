@@ -97,14 +97,14 @@ By creating organizational units (OUs), I could establish clear divisions betwee
 ##### Remote Server Administration Tools (RSAT)	ADUC and other management tools
 
 # 🛠️ Summary of Lab Goals
-•	Set up a Windows Server as the first Domain Controller
+##### Set up a Windows Server as the first Domain Controller
 
-•	Create a new Active Directory domain: chicagobears.local
+##### Create a new Active Directory domain: chicagobears.local
 
-•	Configure Organizational Units (OUs) for each department
+##### Configure Organizational Units (OUs) for each department
 
-•	Create a domain user account: Staley the Bear
+##### Create a domain user account: Staley the Bear
 
-•	Join a client machine to the domain
+##### Join a client machine to the domain
 
-•	Validate setup using built-in tools (dcdiag, domain login)
+##### Validate setup using built-in tools (dcdiag, domain login)
