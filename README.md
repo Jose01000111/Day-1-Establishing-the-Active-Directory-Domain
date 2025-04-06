@@ -27,7 +27,9 @@ By creating organizational units (OUs), I could establish clear divisions betwee
 
 •	Rename the server to: AD-CHIBEAR-60005
 
-https://imgur.com/A3REYtc
+<p align="center">
+<img src="https://i.imgur.com/A3REYtc.png" alt="osTicket logo"/>
+</p>
 
 •	Password: ************
 
@@ -39,7 +41,9 @@ https://imgur.com/A3REYtc
   
    o	DNS Server
 
-   https://imgur.com/HLQDkZk
+<p align="center">
+<img src="https://i.imgur.com/HLQDkZk.png" alt="osTicket logo"/>
+</p>
   
 ### 4. Promote the server to a Domain Controller.
   o	New Forest: chicagobears.local
@@ -52,7 +56,9 @@ https://imgur.com/A3REYtc
    
 • Use Active Directory Users and Computers (ADUC) to define departmental structure:
 
-https://imgur.com/Mal9yWh
+<p align="center">
+<img src="https://i.imgur.com/Mal9yWh.png" alt="osTicket logo"/>
+</p>
 
 ├── Admin
 
@@ -64,7 +70,9 @@ https://imgur.com/Mal9yWh
 
 └── Staley the bear
 
-https://imgur.com/61UgoRS
+<p align="center">
+<img src="https://i.imgur.com/61UgoRS.png" alt="osTicket logo"/>
+</p>
 
 ##### These OUs will help manage group policies, delegate administrative control, and organize users by department.
 
