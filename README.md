@@ -2,13 +2,13 @@
 <img src="https://i.imgur.com/pqTjnLb.png" alt="osTicket logo"/>
 </p>
 
-## Active Directory Migration for the Chicago Bears' New Headquarters
+## ☁️ Active Directory Migration for the Chicago Bears' New Headquarters
 
-When the Chicago Bears announced their move to the Arlington Heights Racecourse, it signaled more than a new stadium—it meant a full infrastructure overhaul. I was brought on as a Systems Administrator to build out their cloud-based IT environment from scratch. My job was to ensure that the Arlington Heights location could support secure, enterprise-grade IT operations from day one.
+When the Chicago Bears 🐻 announced their move to the Arlington Heights Racecourse, it signaled more than a new stadium—it meant a full infrastructure overhaul. I was brought on as a Systems Administrator to build out their cloud-based IT environment from scratch. My job was to ensure that the Arlington Heights location could support secure, enterprise-grade IT operations from day one.
 
 This five-day Active Directory lab simulates that real-world deployment. Throughout the process, I leaned on both my technical knowledge and tools like ChatGPT to clarify configurations, troubleshoot issues, and solidify my understanding of Microsoft Active Directory in Azure. Here's a breakdown of my journey:
 
-## Day 1: Establishing the Active Directory Domain
+## Day 1: Establishing the ☁️ Active Directory Domain
 
 To kick off the project, I set up the backbone of the environment: a Domain Controller hosted in Azure. This would become the centralized management point for users, policies, and resource access across the new Arlington site.
 
@@ -20,7 +20,7 @@ I deployed a Windows Server VM, promoted it to a Domain Controller, and installe
 
 #### 1. Install Windows Server & Prepare the Environment
    
-•	Deploy Windows Server 2022 (or 2019).
+•	Deploy 🪟 Windows Server 2022 (or 2019).
 
 •	Resource group: ArlingtonHQ-AD-Lab
 
