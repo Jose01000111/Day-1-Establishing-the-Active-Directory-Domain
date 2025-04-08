@@ -12,7 +12,7 @@ This five-day Active Directory lab simulates that real-world deployment. Through
 The initial step of setting up a Domain Controller (DC) is where Active Directory truly shines. It’s not just about having one system to manage everything—it’s about creating a centralized, scalable solution for the entire organization. With AD, I can easily control user access to resources, ensuring that all employees are part of the same trusted domain.
 By creating organizational units (OUs), I could establish clear divisions between departments, ensuring that policies and permissions are applied uniformly and appropriately. This allows for an organized and efficient structure, a feature that I quickly realized is vital for managing a growing business like the Bears in their new headquarters.
 
-## 🛠️ Lab Tasks
+### 🧪 Lab Tasks
 
 #### 1. Install Windows Server & Prepare the Environment
    
