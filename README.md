@@ -9,8 +9,12 @@ When the Chicago Bears announced their move to the Arlington Heights Racecourse,
 This five-day Active Directory lab simulates that real-world deployment. Throughout the process, I leaned on both my technical knowledge and tools like ChatGPT to clarify configurations, troubleshoot issues, and solidify my understanding of Microsoft Active Directory in Azure. Here's a breakdown of my journey:
 
 ## Day 1: Establishing the Active Directory Domain
-The initial step of setting up a Domain Controller (DC) is where Active Directory truly shines. It’s not just about having one system to manage everything—it’s about creating a centralized, scalable solution for the entire organization. With AD, I can easily control user access to resources, ensuring that all employees are part of the same trusted domain.
-By creating organizational units (OUs), I could establish clear divisions between departments, ensuring that policies and permissions are applied uniformly and appropriately. This allows for an organized and efficient structure, a feature that I quickly realized is vital for managing a growing business like the Bears in their new headquarters.
+
+To kick off the project, I set up the backbone of the environment: a Domain Controller hosted in Azure. This would become the centralized management point for users, policies, and resource access across the new Arlington site.
+
+I deployed a Windows Server VM, promoted it to a Domain Controller, and installed Active Directory Domain Services (AD DS). This created the secure domain that everything else would build on. (ChatGPT helped me double-check domain naming conventions and DNS settings.)
+
+
 
 ### 🧪 Lab Tasks
 
