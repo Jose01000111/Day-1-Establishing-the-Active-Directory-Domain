@@ -2,8 +2,10 @@
 <img src="https://i.imgur.com/pqTjnLb.png" alt="osTicket logo"/>
 </p>
 
-When I first imagined this scenario, I wanted to gain a deeper understanding of what an IT professional might encounter when setting up a new office space for a large organization. I chose the example of the Chicago Bears purchasing the Arlington Racecourse because it involves a dynamic, high-profile organization with varied IT needs, making it a perfect case study for applying Active Directory solutions.
-This scenario isn’t just about configuring systems—it's about imagining what kinds of challenges IT professionals face when moving from one location to another, particularly in a business environment that needs a scalable, secure, and reliable IT infrastructure. Active Directory (AD) provides a solution for many of these challenges, and by walking through this setup, I could understand the core capabilities AD brings to the table, especially in terms of user management, resource access, security, and disaster recovery.
+Active Directory Migration for the Chicago Bears' New Headquarters
+When the Chicago Bears announced their move to the Arlington Heights Racecourse, it signaled more than a new stadium—it meant a full infrastructure overhaul. I was brought on as a Systems Administrator to build out their cloud-based IT environment from scratch. My job was to ensure that the Arlington Heights location could support secure, enterprise-grade IT operations from day one.
+
+This five-day Active Directory lab simulates that real-world deployment. Throughout the process, I leaned on both my technical knowledge and tools like ChatGPT to clarify configurations, troubleshoot issues, and solidify my understanding of Microsoft Active Directory in Azure. Here's a breakdown of my journey:
 
 # Day 1: Establishing the Active Directory Domain
 The initial step of setting up a Domain Controller (DC) is where Active Directory truly shines. It’s not just about having one system to manage everything—it’s about creating a centralized, scalable solution for the entire organization. With AD, I can easily control user access to resources, ensuring that all employees are part of the same trusted domain.
