@@ -52,7 +52,7 @@ I deployed a Windows Server VM, promoted it to a Domain Controller, and installe
 <img src="https://i.imgur.com/HLQDkZk.png" alt="osTicket logo"/>
 </p>
   
-#### 4. Promote the server to a Domain Controller.
+#### 4. Promote the server to a 🌐 Domain Controller.
   o	New Forest: chicagobears.local
   
   o	Configure domain and DNS settings as needed.
