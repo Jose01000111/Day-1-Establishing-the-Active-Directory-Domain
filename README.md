@@ -83,7 +83,7 @@ By creating organizational units (OUs), I could establish clear divisions betwee
 
 ##### These OUs will help manage group policies, delegate administrative control, and organize users by department.
 
-# 💻 Technology Stack
+## 💻 Technology Stack
 
 ##### Technology	Role
 
@@ -99,7 +99,7 @@ By creating organizational units (OUs), I could establish clear divisions betwee
 
 ##### Remote Server Administration Tools (RSAT)	ADUC and other management tools
 
-# 🛠️ Summary of Lab Goals
+## 🛠️ Summary of Lab Goals
 ##### ✅ Set up a Windows Server as the first Domain Controller
 
 ##### ✅Create a new Active Directory domain: chicagobears.local
