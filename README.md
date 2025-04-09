@@ -89,8 +89,6 @@ I deployed a Windows Server VM, promoted it to a Domain Controller, and installe
 
 ## 💻 Technology Stack
 
-##### Technology	Role
-
 ##### Windows Server 2022	Domain Controller, DNS Server
 
 ##### Active Directory Domain Services (AD DS)	Centralized identity management
