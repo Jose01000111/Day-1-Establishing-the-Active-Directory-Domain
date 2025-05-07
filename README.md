@@ -14,8 +14,6 @@ To kick off the project, I set up the backbone of the environment: a Domain Cont
 
 I deployed a Windows Server VM, promoted it to a Domain Controller, and installed Active Directory Domain Services (AD DS). This created the secure domain that everything else would build on. (ChatGPT helped me double-check domain naming conventions and DNS settings.)
 
-
-
 ### 🧪 Lab Tasks
 
 #### 1. Install Windows Server & Prepare the Environment
@@ -32,7 +30,7 @@ After logging into the server, I opened Server Manager, went to Add Roles and Fe
 <p align="center">
 <img src="https://i.imgur.com/A3REYtc.png" alt="osTicket logo"/>
 </p>
-
+___________________________________________________________________________________________________________
 #### 3. Promote to Domain Controller
    
 I opened Server Manager, selected Add Roles and Features, and installed the Active Directory Domain Services (AD DS) and DNS Server roles. After installation, I proceeded to promote the server to a domain controller.
@@ -40,7 +38,7 @@ I opened Server Manager, selected Add Roles and Features, and installed the Acti
 <p align="center">
 <img src="https://i.imgur.com/HLQDkZk.png" alt="osTicket logo"/>
 </p>
-  
+___________________________________________________________________________________________________________
 #### 4. Promote the server to a 🌐 Domain Controller.
 
 I promoted the server to a Domain Controller by selecting Add a new forest and setting the domain name to chicagobears.local. I configured the necessary domain and DNS settings, then restarted the server upon completion.
@@ -48,7 +46,7 @@ I promoted the server to a Domain Controller by selecting Add a new forest and s
 <p align="center">
 <img src="https://i.imgur.com/AmpbSWu.png" alt="osTicket logo"/>
 </p>
-
+___________________________________________________________________________________________________________
 #### 5. Create Organizational Units (OUs)
 I used Active Directory Users and Computers (ADUC) to define the departmental structure within the domain. I created the following organizational units (OUs):
 
@@ -66,10 +64,12 @@ Staley the bear
 <img src="https://i.imgur.com/Mal9yWh.png" alt="osTicket logo"/>
 </p>
 
+___________________________________________________________________________________________________________
 <p align="center">
 <img src="https://i.imgur.com/61UgoRS.png" alt="osTicket logo"/>
 </p>
 
+___________________________________________________________________________________________________________
 ##### These OUs will help manage group policies, delegate administrative control, and organize users by department.
 
 ## 💻 Technology Stack
