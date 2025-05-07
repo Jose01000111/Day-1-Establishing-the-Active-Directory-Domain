@@ -19,26 +19,18 @@ I deployed a Windows Server VM, promoted it to a Domain Controller, and installe
 ### 🧪 Lab Tasks
 
 #### 1. Install Windows Server & Prepare the Environment
-   
-•	Deploy 🪟 Windows Server 2022 (or 2019).
-
-•	Resource group: ArlingtonHQ-AD-Lab
-
-•	Region: (US) Central US
+I deployed a Windows Server 2022 virtual machine in Azure (Windows Server 2019 would also work). I created a new resource group called ArlingtonHQ-AD-Lab and selected Central US as the region. Once the VM was deployed, I assigned it a static IP address to ensure stable network connectivity. I then renamed the server to AD-CHIBEAR-60005 and set a secure administrator password during the setup process
 
 <p align="center">
 <img src="https://i.imgur.com/D7noL6f.png" alt="osTicket logo"/>
 </p>
 
-•	Assign a static IP address.
-
-•	Rename the server to: AD-CHIBEAR-60005
+#### 2. Promote to Domain Controller
+After logging into the server, I opened Server Manager, went to Add Roles and Features, and selected the Active Directory Domain Services (AD DS) role. I completed the wizard and, once the role was installed, I clicked Promote this server to a domain controller. I chose to add a new forest, entered a root domain name, and set the Directory Services Restore Mode (DSRM) password. After finishing the configuration, I restarted the server. It successfully came back up as a domain controller for the new forest.
 
 <p align="center">
 <img src="https://i.imgur.com/A3REYtc.png" alt="osTicket logo"/>
 </p>
-
-•	Password: ************
 
 #### 3. Promote to Domain Controller
    
