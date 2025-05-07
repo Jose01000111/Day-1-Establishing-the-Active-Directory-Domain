@@ -34,44 +34,36 @@ After logging into the server, I opened Server Manager, went to Add Roles and Fe
 
 #### 3. Promote to Domain Controller
    
-• Use Server Manager to install the following roles:
-
-   o	Active Directory Domain Services (AD DS)
-  
-   o	DNS Server
+I opened Server Manager, selected Add Roles and Features, and installed the Active Directory Domain Services (AD DS) and DNS Server roles. After installation, I proceeded to promote the server to a domain controller.
 
 <p align="center">
 <img src="https://i.imgur.com/HLQDkZk.png" alt="osTicket logo"/>
 </p>
   
 #### 4. Promote the server to a 🌐 Domain Controller.
-  o	New Forest: chicagobears.local
-  
-  o	Configure domain and DNS settings as needed.
-  
-  o	Restart upon completion.
 
+I promoted the server to a Domain Controller by selecting Add a new forest and setting the domain name to chicagobears.local. I configured the necessary domain and DNS settings, then restarted the server upon completion.
+  
 <p align="center">
 <img src="https://i.imgur.com/AmpbSWu.png" alt="osTicket logo"/>
 </p>
 
 #### 5. Create Organizational Units (OUs)
-   
-• Use Active Directory Users and Computers (ADUC) to define departmental structure:
+I used Active Directory Users and Computers (ADUC) to define the departmental structure within the domain. I created the following organizational units (OUs):
+
+Admin
+
+HR
+
+IT
+
+Operations
+
+Staley the bear
 
 <p align="center">
 <img src="https://i.imgur.com/Mal9yWh.png" alt="osTicket logo"/>
 </p>
-
-├── Admin
-
-├── HR
-
-├── IT
-
-├── Operations
-
-└── Staley the bear
 
 <p align="center">
 <img src="https://i.imgur.com/61UgoRS.png" alt="osTicket logo"/>
