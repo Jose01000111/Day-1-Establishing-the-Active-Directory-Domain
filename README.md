@@ -24,6 +24,7 @@ I deployed a Windows Server 2022 virtual machine in Azure (Windows Server 2019 w
 <p align="center">
 <img src="https://i.imgur.com/D7noL6f.png" alt="osTicket logo"/>
 </p>
+___________________________________________________________________________________________________________
 
 #### 2. Promote to Domain Controller
 After logging into the server, I opened Server Manager, went to Add Roles and Features, and selected the Active Directory Domain Services (AD DS) role. I completed the wizard and, once the role was installed, I clicked Promote this server to a domain controller. I chose to add a new forest, entered a root domain name, and set the Directory Services Restore Mode (DSRM) password. After finishing the configuration, I restarted the server. It successfully came back up as a domain controller for the new forest.
