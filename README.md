@@ -22,7 +22,7 @@ I deployed a Windows Server 2022 virtual machine in Azure (Windows Server 2019 w
 <p align="center">
 <img src="https://i.imgur.com/D7noL6f.png" alt="osTicket logo"/>
 </p>
-___________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________
 
 #### 2. Promote to Domain Controller
 After logging into the server, I opened Server Manager, went to Add Roles and Features, and selected the Active Directory Domain Services (AD DS) role. I completed the wizard and, once the role was installed, I clicked Promote this server to a domain controller. I chose to add a new forest, entered a root domain name, and set the Directory Services Restore Mode (DSRM) password. After finishing the configuration, I restarted the server. It successfully came back up as a domain controller for the new forest.
@@ -30,7 +30,7 @@ After logging into the server, I opened Server Manager, went to Add Roles and Fe
 <p align="center">
 <img src="https://i.imgur.com/A3REYtc.png" alt="osTicket logo"/>
 </p>
-___________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________
 #### 3. Promote to Domain Controller
    
 I opened Server Manager, selected Add Roles and Features, and installed the Active Directory Domain Services (AD DS) and DNS Server roles. After installation, I proceeded to promote the server to a domain controller.
@@ -38,7 +38,7 @@ I opened Server Manager, selected Add Roles and Features, and installed the Acti
 <p align="center">
 <img src="https://i.imgur.com/HLQDkZk.png" alt="osTicket logo"/>
 </p>
-___________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________
 #### 4. Promote the server to a 🌐 Domain Controller.
 
 I promoted the server to a Domain Controller by selecting Add a new forest and setting the domain name to chicagobears.local. I configured the necessary domain and DNS settings, then restarted the server upon completion.
@@ -46,7 +46,7 @@ I promoted the server to a Domain Controller by selecting Add a new forest and s
 <p align="center">
 <img src="https://i.imgur.com/AmpbSWu.png" alt="osTicket logo"/>
 </p>
-___________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________
 #### 5. Create Organizational Units (OUs)
 I used Active Directory Users and Computers (ADUC) to define the departmental structure within the domain. I created the following organizational units (OUs):
 
@@ -64,12 +64,12 @@ Staley the bear
 <img src="https://i.imgur.com/Mal9yWh.png" alt="osTicket logo"/>
 </p>
 
-___________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________
 <p align="center">
 <img src="https://i.imgur.com/61UgoRS.png" alt="osTicket logo"/>
 </p>
 
-___________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________
 ##### These OUs will help manage group policies, delegate administrative control, and organize users by department.
 
 ## 💻 Technology Stack
